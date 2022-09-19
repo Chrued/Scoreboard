@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #004b23;
+}
+
+.container {
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    justify-content: space-around;
+    color: yellow ;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:  2px #9ef01a;
+    font-weight: 50px;
+    text-shadow: 2px 2px 1px schwarz;
+}
+
+#score-home, #score-guest {
+    padding :40px;
+    background-color: black;
+    text-shadow:  1px orangered;
+    font-family: 'Rubik Maze', cursive;
+    border-radius: 6px;
+}
+
+button {
+    margin: 2px ;
+    padding: 5px;   
+    font-family: 'Rubik Maze', cursive;
+    border-radius: 6px;
+    background: orangered;
+    color:yellow;
+    font-size: 20px;
+    text-shadow:  1px orangered;    
+}
+
+.plus-home, .plus-guest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+

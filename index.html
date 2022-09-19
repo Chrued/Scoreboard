@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&family=Bungee+Spice&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h4 id="score-home">0</h4>
+                <div class="plus-home">
+                    <button id="plus1" onclick="incrementHome1()" type="button">+1</button>
+                    <button id="plus2" onclick="incrementHome2()" type="button">+2</button>
+                    <button id="plus3" onclick="incrementHome3()" type="button">+3</button>
+                </div>
+                
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h4 id="score-guest">0</h4>
+                <div class="plus-guest">
+                    <button id="plus1" onclick="incrementGuest1()" type="button">+1</button>
+                    <button id="plus2" onclick="incrementGuest2()" type="button">+2</button>
+                    <button id="plus3" onclick="incrementGuest3()" type="button">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
